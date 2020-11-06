@@ -3,9 +3,9 @@
 ## Odoo csv / xml converter
 
 ```
-Usage: c2x [OPTIONS] [FILE]
+Usage: csv2xml [OPTIONS] [FILE]
 
-  Convert Odoo csv files in xml files Csv is easy to maintain but xml data
+  Convert Odoo csv files in Odoo xml files Csv is easy to maintain but xml data
   have 'noupdate' and search features
 
   Limitations:

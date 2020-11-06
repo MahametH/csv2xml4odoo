@@ -1,17 +1,19 @@
+# -*- coding: utf-8 -*-
+
 from setuptools import setup, find_packages
 
 setup(
     name='csv2xml4odoo',
-    version='0.3',
-    url='https://github.com/akretion/csv2xml4odoo',
+    version='1.0',
+    url='https://github.com/MahametH/csv2xml4odoo',
     license='AGPL',
-    author='David BEAL',
-    author_email='david.beal@akretion.com',
-    description='Convert csv to xml in Odoo ERP context',
+    author='Mahamet Habibou',
+    author_email='habibou776@gmail.com',
+    description='Convert csv to odoo xml data in Odoo ERP context',
     install_requires=['click'],
     packages=find_packages(),
     long_description=open('README.md').read(),
     zip_safe=False,
     entry_points=dict(
-        console_scripts=['c2x=csv2xml4odoo.c2x:main'])
+        console_scripts=['oc2x=csv2xml4odoo.csv2xml:main'])
 )
